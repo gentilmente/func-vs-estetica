@@ -4,13 +4,21 @@
 <head>
 	<meta charset="utf-8">
 	<title>funcionalidad vs apariencia</title>
-	<link rel="stylesheet" href="./estilos/estilos.css">
+	<link rel="stylesheet" href="./estilos.css">
   <!--<script type="text/javascript" src="script.js"></script>-->
 </head>
 <body>
   <nav>
-    <button id = "salvar" onClick = "salvarMundo()">resolver problemas</button>
-    <button>que la solución sea agradable</button>
+    <ul>
+      <li><button id = "pacificar" onClick = "pacificar()">pacificar</button></li>
+      <li><button id = "descontaminar" onClick = "descontaminar()">descontaminar</button></li>
+      <li><button>equilibrar</button></li>
+    </ul>
+    <ul>
+      <li><button>mejorar la pacificación</button></li>
+      <li><button id = "mejorarDescontaminar" onClick = "mejorarDescontaminación()">mejorar la descontaminación</button></li>
+      <li><button id = "mejorarEquilibrio" onClick = "mejorarEquilibrio()">mejorar el equilibrio</button></li>
+    </ul>
   </nav>
   <section id = "mundo">
     <div>
