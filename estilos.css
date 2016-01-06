@@ -1,0 +1,14 @@
+.fadeout {
+transition: opacity 1s ease-in-out;
+  zoom: 1;
+filter: alpha(opacity=0);
+opacity: 0;
+}
+
+.fadein {
+transition: opacity 1s ease-in-out;
+  zoom: 1;
+filter: alpha(opacity=50);
+opacity: 1;
+}
+
