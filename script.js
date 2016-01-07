@@ -25,5 +25,23 @@ function fadein() {
 
 
 function descontaminar() {
+  console.log("cambiar de manera funcional el elemento -descontaminar-");
+}
 
+function mejorarDescontaminación(){
+  console.log("cambiar de manera estética el elemento -descontaminar-");
+}
+
+function equilibrarEconomia () {
+  console.log("cambiar de manera funcional el elemento -pobreza-");  
+}
+
+function mejorarEquilibrio () {
+  console.log("cambiar de manera estética el elemento -pobreza-");  
+}
+
+function ejecutarFunciones () {
+  pacificar();
+  descontaminar();
+  equilibrarEconomia();
 }
